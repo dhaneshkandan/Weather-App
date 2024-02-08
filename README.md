@@ -2,26 +2,27 @@
 
 This is a simple weather application developed using React.js and Vite.js.
 
-Features
+**Features**
 
 Search for weather information by city name.
 Display current weather details including temperature, humidity, wind speed, pressure, and visibility.
 Show weather icons corresponding to the current weather condition.
 
-Technologies Used
+**Technologies Used**
 
-React.js
-Vite.js
-OpenWeatherMap API
-Getting Started
+* React.js
+* Vite.js
+* OpenWeatherMap API
+
+**Getting Started**
 
 Prerequisites
-Node.js and npm installed on your machine.
+* Node.js and npm installed on your machine.
 
-Installation
+**Installation***
 1.npm install
 
-Usage
+**Usage**
 1.Start the development server:
 npm run dev
 
@@ -29,11 +30,11 @@ npm run dev
 
 3.Enter the city name in the search input field and press Enter or click the search icon to fetch the weather information.
 
-Contributing
+**Contributing**
 
 Contributions are welcome! Please open an issue or submit a pull request with any improvements or bug fixes.
 
-License
+**License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
