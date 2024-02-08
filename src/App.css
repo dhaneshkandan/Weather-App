@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+
+/*.clear{
+  width: 100px;
+}*/
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #05060F;
+  width: 100vw;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 350px;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4p 8px rgba(0,0,0,0.1);
+}
+.input-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityInput{
+  flex:1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+.search-icon{
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.search-img{
+  width: 25px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+.search-img:hover{
+  transform: rotate(85deg);
+  transition-duration: 350ms;
+}
+.image{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.image img{
+  width: 160px;
+  height: 160px;
+}
+.temp,
+.location,
+.country{
+  margin-top: 5px;
+  font-size: 35px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  color: #ffbc00;
+  font-weight: 900;
+  font-size: 40px;
+}
+.country{
+  font-size: 18px;
+  color: #888;
+  font-weight: 500;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cord div span{
+  font-size: 14px;
+}
+.para{
+  text-align: center;
+  padding: 2px;
+  font-size: 16px;
+  color: #05060F;
+  font-weight: 900;
+  border-radius: 10px;
+  background-color: #F6F6F7;
+}
+.humidity-percentage,
+.wind-percentage,
+.cord div span:nth-child(2){
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  padding-top: 5px;
+}
+/*New */
+
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.element{
+  text-align: center;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+}
+.visi-img{
+  width: 30px;
+  height: 30px;
+
+}
+.text{
+  font-size: 18px;
+  color: #05060F;
+  font-weight: 900;
+}
+.loading-message,
+.error-message,
+.city-not-found{
+  margin-top: 10px;
+  color: #888;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+.footer{
+  padding: 10px 0;
+  text-align: center;
+  color:#919295;
+}
+.footer a{
+  color: #919295;
+  text-decoration: none;
+}
+.footer a:hover{
+  color: #fff;
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+  .container{
+    width: 300px;
+    
+  }
+
+}
