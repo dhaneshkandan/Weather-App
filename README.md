@@ -1,4 +1,4 @@
-# [Weather App](https://dhanesh-weather.netlify.app/)
+# [React JS Weather App](https://dhanesh-weather.netlify.app/)
 
 This is a simple weather application developed using React.js and Vite.js.
 
