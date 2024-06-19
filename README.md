@@ -1,6 +1,6 @@
 # [Weather App using React JS](https://dhanesh-weather.netlify.app/)
 
-<img src="https://dhaneshkandan.github.io/img/534c4ecb-7d48-4eef-b7ec-eda61805dde6.png">
+<img src="https://dhaneshkandan.github.io/img/534c4ecb-7d48-4eef-b7ec-eda61805dde6.png" tyle="height:100">
 
 This is a simple weather application developed using React.js and Vite.js.
 
